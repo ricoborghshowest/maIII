@@ -46,6 +46,9 @@ h2{
   padding: 2.5rem 0;
 }
 
+.text-right{
+  text-align: right;
+}
 
 .container{
   max-width: 960px;
@@ -55,6 +58,12 @@ h2{
 #combo{
   display: flex;
   justify-content: flex-end;
+}
+
+.text-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* HEADER */
@@ -121,4 +130,8 @@ main{
 
 .text-block{
   width: 47.5%;
+}
+
+.move-right{
+  margin-right: -10rem;
 }
