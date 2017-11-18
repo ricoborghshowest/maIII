@@ -1,2 +1,46 @@
 @import 'reset';
 @import 'vars';
+
+/* GENERAL */
+/*@font-face {
+  font-family: 'Bebas';
+  src: url('../assets/fonts/Bebas_Neue/BebasNeue.woff2') format('woff2'),
+       url('../assets/fonts/Bebas_Neue/BebasNeue.woff') format('woff');
+       /*url('../assets/fonts/Bebas_Neue/BebasNeue.otf') format('opentype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, header{
+  font-family: "Bebas";
+}*/
+
+
+.container{
+  max-width: 960px;
+  margin: auto;
+}
+
+
+
+/* HEADER */
+header{
+  background-color: var(--bg-color);
+  padding: 2.5rem 0;
+}
+
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav, .nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-item{
+  padding: 0 2rem;
+}
