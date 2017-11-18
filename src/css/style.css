@@ -35,7 +35,7 @@ h1, h2, h3, header{
 /* HEADER */
 header{
   background-color: var(--bg-color);
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 0 0;
 }
 
 .container-nav{
@@ -51,4 +51,37 @@ nav, .nav-list{
 
 .nav-item{
   padding: 0 2rem;
+  font-size: 2.4em;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+}
+
+.nav-item a:hover{
+  color: black;
+}
+
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 9.2em;
+  text-align: right;
+  line-height: 0.9em;
+  padding-top: 2.5rem;
+}
+
+.header-text-red{
+  color: #F93942;
+}
+
+.header-text-gold{
+  color: #FFE7B3;
+}
+
+.header-img{
+  margin-bottom: -7rem;
 }
