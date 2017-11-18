@@ -48,6 +48,7 @@ h2{
 
 .text-right{
   text-align: right;
+  margin-top: 4rem;
 }
 
 .container{
@@ -134,4 +135,26 @@ main{
 
 .move-right{
   margin-right: -10rem;
+}
+
+.stappen-images{
+  width: 48%;
+}
+
+.stappen-images picture{
+  display: block;
+}
+
+.stappen-images picture:first-of-type{
+  margin-left: -10rem;
+}
+
+.stappen-images picture:nth-of-type(even){
+  margin-top: -7rem;
+  margin-bottom: -5rem;
+  text-align: right;
+}
+
+#stappenplan p{
+  margin-bottom: 3rem;
 }
