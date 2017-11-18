@@ -2,11 +2,19 @@
 @import 'vars';
 
 /* GENERAL */
-/*@font-face {
+@font-face {
   font-family: 'Bebas';
   src: url('../assets/fonts/Bebas_Neue/BebasNeue.woff2') format('woff2'),
        url('../assets/fonts/Bebas_Neue/BebasNeue.woff') format('woff');
-       /*url('../assets/fonts/Bebas_Neue/BebasNeue.otf') format('opentype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../assets/fonts/DIN/DINPro-Medium.woff2') format('woff2'),
+       url('../assets/fonts/DIN/DINPro-Medium.woff') format('woff');
 
   font-weight: normal;
   font-style: normal;
@@ -14,7 +22,7 @@
 
 h1, h2, h3, header{
   font-family: "Bebas";
-}*/
+}
 
 
 .container{
