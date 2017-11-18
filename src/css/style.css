@@ -230,6 +230,15 @@ input[type=submit]{
   border-radius: 0;
 }
 
+input.error{
+  border-color: #F93942;
+}
+
+.feedback{
+  color: #F93942;
+  font-size: 1.8rem;
+}
+
 /* FOOTER */
 footer{
   padding: 5rem 0;
