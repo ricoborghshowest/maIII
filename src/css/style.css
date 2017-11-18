@@ -20,8 +20,30 @@
   font-style: normal;
 }
 
+body{
+  font-family: "DIN";
+}
+
+main p{
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
 h1, h2, h3, header{
   font-family: "Bebas";
+}
+
+h1{
+  font-size: 17.2em;
+  color: #00A9D7;
+  opacity: .42;
+}
+
+h2{
+  font-family: "Bebas";
+  color: var(--main-color);
+  font-size: 4.8em;
+  padding: 2.5rem 0;
 }
 
 
@@ -30,11 +52,14 @@ h1, h2, h3, header{
   margin: auto;
 }
 
-
+#combo{
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* HEADER */
 header{
-  background-color: var(--bg-color);
+  background-color: var(--main-color);
   padding: 2.5rem 0 0 0;
 }
 
@@ -84,4 +109,16 @@ nav, .nav-list{
 
 .header-img{
   margin-bottom: -7rem;
+}
+
+/* MAIN */
+main{
+  background-image: url('../assets/img/glashand.png');
+  background-repeat: no-repeat;
+  background-position: 0 13rem;
+  padding-top: 5rem;
+}
+
+.text-block{
+  width: 47.5%;
 }
