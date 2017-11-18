@@ -160,11 +160,11 @@ main{
   background-image: url('../assets/img/bgwedstrijd.png');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 850px;
+  height: 800px;
 }
 
 .article-left{
-  margin-top: 12rem;
+  margin-top: 3rem;
   color: white;
 }
 
@@ -173,7 +173,8 @@ main{
 }
 
 .article-right{
-  padding-top: 20rem;
+  margin-top: 10rem;
+  padding-top: 16rem;
   padding-bottom: 10rem;
   border: solid 2rem rgba(0, 169, 215,.42);
 }
@@ -227,4 +228,9 @@ input[type=submit]{
   font-size: 2.4em;
   padding: .5rem 4rem;
   border-radius: 0;
+}
+
+/* FOOTER */
+footer{
+  padding: 5rem 0;
 }
